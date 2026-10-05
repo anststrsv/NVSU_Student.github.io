@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+#main-title {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: blue;
+}
+
+.intro {
+  font-family: "Times New Roman", Times, serif;
+  text-indent: 30px;
+}
+
+.rule {
+  text-align: justify;
+}
+
+#table-caption {
+  text-align: right;
+  font-weight: bold;
+  font-family: 'Times New Roman', serif;
+}
+
+.math-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-weight: bold;
+}
+
+.math-table td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
