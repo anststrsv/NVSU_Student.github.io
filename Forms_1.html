@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Лабораторная работа №2.3</title>
+</head>
+
+<body style="background-color: lightblue; font-size: 18px;">
+
+  <h1>ЗАО Птицефабрика №1</h1>
+
+  <form>
+    <table  cellpadding="5">
+      <tr>
+        <td><label>Имя:</label></td>
+        <td><input type="text" size="30" maxlength="50"></td>
+      </tr>
+      <tr>
+        <td><label>Инициалы:</label></td>
+        <td><input type="text" size="30" maxlength="10"></td>
+      </tr>
+      <tr>
+        <td><label>Пароль:</label></td>
+        <td><input type="password" size="30" maxlength="50"></td>
+      </tr>
+      <tr>
+        <td><label>Адрес получателя:</label></td>
+        <td><input type="text" size="50" maxlength="50"></td>
+      </tr>
+      <tr>
+        <td><label>Количество:</label></td>
+        <td><input type="number" min="1" max="1000"></td>
+      </tr>
+      <tr>
+        <td><label>Тип:</label></td>
+        <td>
+          <select>
+            <option>Куриные</option>
+            <option>Индюшачьи</option>
+          </select>
+          <select>
+            <option>Голени</option>
+            <option>Бедра</option>
+            <option>Филе</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">Доставка:</td>
+        <td>
+          <label><input type="radio" name="delivery"> Почтой</label><br>
+          <label><input type="radio" name="delivery"> Электронно</label><br>
+          <label><input type="radio" name="delivery"> Курьером</label>
+        </td>
+      </tr>
+      <tr>
+        <td>Требуется накладная:</td>
+        <td><label><input type="checkbox"></label></td>
+      </tr>
+      <tr>
+        <td valign="top"><label>Доп. информация:</label></td>
+        <td><textarea rows="6" cols="50"></textarea></td>
+      </tr>
+    </table>
+  </form>
+
+</body>
+</html>
